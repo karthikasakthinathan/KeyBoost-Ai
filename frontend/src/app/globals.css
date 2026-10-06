@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { @apply bg-air text-ink antialiased; }
+.cloud {
+  background:
+    radial-gradient(55% 34% at 50% 82%, #27b4ff 0, rgba(39,180,255,0) 72%),
+    radial-gradient(32% 26% at 27% 90%, #1d6bff 0, rgba(29,107,255,0) 72%),
+    radial-gradient(32% 26% at 74% 86%, #7fdcff 0, rgba(127,220,255,0) 72%);
+}
